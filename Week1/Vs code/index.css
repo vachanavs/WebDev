@@ -1,6 +1,17 @@
 body{
-    background-color:black;
+    background-color:#0D1117;
 }
+
+.download-up{
+    padding: 8px 18px 8px 18px;
+    border-radius: 6px;
+    background-color: #0072be;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
 
 .top-link{
     color: grey;
@@ -10,15 +21,30 @@ body{
 
 .download{
     color: white;
-    background-color: blue;
+    background-color: #0072be;
+    border-radius: 5px;
     cursor: pointer;
+    padding: 10px;
     font-size: 20px;
 }
 
 .try{
     color: white;
-    background-color: grey;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
     cursor: pointer;
     font-size: 20px;
 
+}
+
+input{
+    border-radius: 4px;
+    background-color: #0e0e0e;
+    padding: 8px 12px;
+}
+
+.middle-img{
+    display: flex;
+    justify-content: center;
 }
